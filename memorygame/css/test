@@ -1,0 +1,52 @@
+
+body {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+h1 {
+font-weight: 400;
+}
+
+p {
+	border: 5px solid;
+
+}
+
+a {
+	text-decoration: none;
+	border-bottom: none;
+	color: #f15b31;
+}
+
+.memorygame {
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.instructions_game {
+	color: #f15b31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.instructions {
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.concentration {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
+
