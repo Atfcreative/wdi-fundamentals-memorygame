@@ -2,22 +2,22 @@ var cards = [
 {
 rank: 'queen',
 suit: 'hearts',
-cardImage: '../images/queen-of-hearts.png'
+cardImage: 'images/queen-of-hearts.png'
 },
 {
 rank: 'queen',
 suit: 'diamonds',
-cardImage: '../images/queen-of-diamonds.png'
+cardImage: 'images/queen-of-diamonds.png'
 },
 {
 rank: 'king',
 suit: 'hearts',
-cardImage: '../images/king-of-hearts.png'
+cardImage: 'images/king-of-hearts.png'
 },
 {
 rank: 'king',
 suit: 'hearts',
-cardImage: '../images/king-of-diamonds.png'
+cardImage: 'images/king-of-diamonds.png'
 }
 ];
 
@@ -35,14 +35,18 @@ var checkForMath = function () {
 var flipCard = function (cardId) {
 	checkForMath();
 }
-console.log("User flipped " + cards[0].rank);
-console.log("User flipped " + cards[2].rank);
 
 cardsInPlay.push(cards[0].rank);
 cardsInPlay.push(cards[2].rank);
 
-console.log(cards[0],[2].cardImage);
-console.log(cards[0],[2].suit);
+console.log("User flipped " + cards[0].rank);
+console.log(cards[0].cardImage);
+console.log(cards[0].suit);
+
+console.log("User flipped " + cards[2].rank);
+console.log(cards[2].cardImage);
+console.log(cards[2].suit);
+
 
 flipCard(0);
 flipCard(2);
